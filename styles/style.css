@@ -202,6 +202,9 @@ hr {
 
 /* Mobile Devices */
 @media (max-width: 688px){
+    .section-title {
+        text-align: center;
+    }
     .nav-section {
         display: none;
     }
@@ -225,4 +228,7 @@ hr {
         margin-left:2.5%;
         width: 95%;
     }
+    .course img{
+        margin-left: 5%;
+    } 
 }
