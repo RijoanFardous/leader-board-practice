@@ -66,6 +66,7 @@ hr {
 .nav-item a, .logo a {
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 .profile-image {
@@ -140,12 +141,12 @@ hr {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 35px;
+    grid-column-gap: 26px;
 }
 .course {
     padding: 15px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .course img {
     width: 224px;
@@ -162,4 +163,32 @@ hr {
     font-size: 14px;
     margin-top: 1px;
     font-family: 'Roboto', sans-serif;
+}
+.course-rating {
+    margin-top: 5px;
+}
+.filled, .empty {
+    font-size: 14px;
+    width: 12.25px;
+    height: 11.75px;
+    margin-right: 3.24px;
+}
+
+.filled {
+    color: #FFC014;
+}
+.empty {
+    color: #AEAEAE;
+}
+.rating {
+    margin-left: 11px;
+    font-size: 14px;
+}
+.duration {
+    color: #FF4A60;
+    padding: 5px;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    margin-left: 25px;
+    font-size: 14px;
 }
