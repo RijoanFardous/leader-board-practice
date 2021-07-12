@@ -209,7 +209,7 @@ hr {
         width: 99%;
     }
     .players {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .player {
         flex-direction: column;
