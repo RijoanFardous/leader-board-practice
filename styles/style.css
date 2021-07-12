@@ -206,7 +206,21 @@ hr {
         text-align: center;
     }
     .nav-section {
+        height: auto;
+    } 
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px;
+        padding: 10px;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .nav-item {
         display: none;
+    }
+    .profile-image {
+        margin-bottom: 10px;
     }
     .container {
         width: 99%;
@@ -224,11 +238,12 @@ hr {
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
-    .course, .blog {
-        margin-left:2.5%;
-        width: 95%;
+    .blog {
+        margin-left: 8%;
+        width: 90%;
     }
-    .course img{
-        margin-left: 5%;
-    } 
+    .course {
+        width: 70%;
+        margin: auto;
+    }
 }
